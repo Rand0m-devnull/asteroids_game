@@ -27,6 +27,7 @@ def main():
         screen.fill("#000000")
 
         player.draw(screen)
+        player.update(dt)
 
         pygame.display.flip()
         
